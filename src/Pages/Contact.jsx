@@ -9,7 +9,7 @@ const Contact = ({ title }) => {
 	return (
 		<div>
 			<div className="bg-black min-h-screen w-full text-white">
-				<div className="container mx-auto py-10">
+				<div className="container mx-auto py-6 md:py-10">
 					<Header />
 					<motion.div
 						initial={{ opacity: 0 }}

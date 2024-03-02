@@ -5,10 +5,10 @@ import { LanguageSwitcher } from "@components";
 const Header = () => {
 	const { t } = useTranslation();
 	return (
-		<header className="flex justify-between items-center">
+		<header className="flex justify-between items-center px-6 md:px-0">
 			<h1 className="text-3xl font-inter font-bold">Juker</h1>
-			<nav className="flex ">
-				<ul className="flex items-center justify-between gap-10 text-xl">
+			<nav className="flex">
+				<ul className="flex items-center justify-between gap-4 md:gap-10 text-xl">
 					<li>
 						<Link
 							className="hover:text-pink-700 duration-300"

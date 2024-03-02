@@ -4,16 +4,16 @@ import { useTranslation } from "react-i18next";
 const Hero = () => {
 	const { t } = useTranslation();
 	return (
-		<div className="flex items-center pt-40">
-			<div className="flex-1">
+		<div className="flex items-center pt-20 md:pt-40  flex-wrap">
+			<div className="flex-1 px-8 md:p-4 lg:p-0">
 				<motion.div
 					initial={{ y: -100, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ duration: 0.5, delay: 0.5 }}>
-					<h1 className="text-8xl font-bold font-inter leading-tight bg-gradient-to-r text-transparent bg-clip-text from-white to-pink-700">
+					<h1 className="text-6xl md:text-8xl font-bold font-inter leading-tight bg-gradient-to-r text-transparent bg-clip-text from-white to-pink-700">
 						Enjoy the music and connect with people.
 					</h1>
-					<p className="mt-5 font-inter text-gray-500  text-justify">
+					<p className="mt-3 font-inter text-gray-500  text-justify">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Aliquam consectetur sequi facere commodi quae sint
 						itaque excepturi? Libero repudiandae dolore vel itaque
@@ -26,7 +26,7 @@ const Hero = () => {
 					</div>
 				</motion.div>
 			</div>
-			<div className="flex-1 flex justify-end mr-10">
+			<div className="flex-1 pt-10 md:pt-0 justify-center flex md:justify-end md:mr-10">
 				<motion.div
 					initial={{ x: 100, opacity: 0 }}
 					animate={{ x: 0, y: 0, opacity: 1 }}
