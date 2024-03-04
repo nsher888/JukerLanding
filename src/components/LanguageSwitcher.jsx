@@ -16,7 +16,7 @@ const LanguageSwitcher = () => {
 				<button
 					title="Change Language to English"
 					onClick={() => changeLanguage("en")}
-					className="px-4 py-2 bg-pink-600 rounded-md text-white font-semibold focus:outline-none hover:bg-pink-700">
+					className="px-2 py-1 md:px-4 md:py-2 bg-pink-600 rounded-md text-white font-semibold focus:outline-none hover:bg-pink-700">
 					<EnIcon />
 				</button>
 			)}
@@ -24,7 +24,7 @@ const LanguageSwitcher = () => {
 				<button
 					title="Change Language to Georgian"
 					onClick={() => changeLanguage("ka")}
-					className="px-4 py-2 bg-pink-600 rounded-md text-white font-semibold focus:outline-none hover:bg-pink-700">
+					className="px-2 py-1 md:px-4 md:py-2 bg-pink-600 rounded-md text-white font-semibold focus:outline-none hover:bg-pink-700">
 					<KaIcon />
 				</button>
 			)}

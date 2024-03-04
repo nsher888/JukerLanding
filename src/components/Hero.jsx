@@ -14,10 +14,10 @@ const Hero = () => {
 						Enjoy the music and connect with people.
 					</h1>
 					<p className="mt-3 font-inter text-gray-500  text-justify">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Aliquam consectetur sequi facere commodi quae sint
-						itaque excepturi? Libero repudiandae dolore vel itaque
-						soluta sapiente a veritatis nobis?
+						Why settle for ordinary when you can elevate your
+						experience? Introducing our online jukeboxes – the
+						perfect way to curate your soundtrack at your favorite
+						spots. Simply scan, select, and set the vibe
 					</p>
 					<div className="mt-10">
 						<button className="bg-pink-700 hover:bg-pink-600 duration-300 text-white font-bold py-3 px-10 rounded-full">
@@ -26,7 +26,7 @@ const Hero = () => {
 					</div>
 				</motion.div>
 			</div>
-			<div className="flex-1 pt-10 md:pt-0 justify-center flex md:justify-end md:mr-10">
+			<div className="flex-1 pt-10 md:pt-0 justify-center flex md:justify-end md:mr-12">
 				<motion.div
 					initial={{ x: 100, opacity: 0 }}
 					animate={{ x: 0, y: 0, opacity: 1 }}
