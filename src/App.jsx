@@ -1,5 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import { Contact, Home, GetStarted } from "./Pages"; 
+import { Contact, Home } from "./Pages"; 
+import GetStarted from "./Pages/GetStarted.jsx";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
