@@ -81,8 +81,6 @@ const GetStarted = () => {
       <ul>
         {queue.map((songId) => (
           <li key={songId}>
-            {/* Display song information based on songId (e.g., title, artist) */}
-            {/* You can fetch additional details from the YouTube Data API or store relevant data when adding the song to the queue */}
             {searchResults.find((item) => item.id.videoId === songId)?.snippet.title}
           </li>
         ))}
