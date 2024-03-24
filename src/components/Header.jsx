@@ -23,6 +23,14 @@ const Header = () => {
 							{t("Contact")}
 						</Link>
 					</li>
+					<li>
+						<Link
+							className="hover:text-pink-700 duration-300"
+							to="/get-started">
+							{t("Get Started")}
+						</Link>
+					</li>
+					
 					<LanguageSwitcher />
 				</ul>
 			</nav>
