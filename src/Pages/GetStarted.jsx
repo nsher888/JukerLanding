@@ -18,7 +18,7 @@ const GetStarted = () => {
         `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${data.songName}&type=video&key=${apiKey}`
       );
       const results = await response.json();
-      setSearchResults(results.items || []); // Assuming the API response has an 'items' array for results
+      setSearchResults(results.items || []); 
     } catch (error) {
       console.error("Error fetching search results:", error);
     }
